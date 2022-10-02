@@ -1,18 +1,19 @@
 import React from 'react';
 import Head from 'next/head';
+
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-    <div className='layout'>
+    <div className="layout">
       <Head>
-        <title>Mohau's Store</title>
+        <title>Mohau's Audio & Speakers</title>
       </Head>
       <header>
         <Navbar />
       </header>
-      <main className='main-container'>
+      <main className="main-container">
         {children}
       </main>
       <footer>
